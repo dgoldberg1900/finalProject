@@ -2,8 +2,8 @@
 
 ## Team Information
 - **Team Members**: 
-  - Daniel Goldberg - Lead Developer, Algorithm Design
-  - Andrew D'Angelo - Research, Documentation, Testing
+  - Daniel Goldberg - Repository Manager, Research, Kalman Filter Algorithm Design
+  - Andrew D'Angelo - Documentation, Research, Particle Filter Algorithm Design
 
 ## Project Topic
 - **Title**: Navigation Simulation: Kalman Filter vs Particle Filter
