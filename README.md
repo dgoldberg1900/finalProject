@@ -6,7 +6,7 @@ This repository contains all files and materials for the final project: **Naviga
 
 The repository is organized as follows:
 
-finalProject/ 
+finalProject/  
     ├── documents/ # Contains project reports, drafts, and presentations  
     │ ├── progressReport_v1.md # Milestone 1 progress report  
     │ ├── research_paper_draft.md # Placeholder for the research paper draft   

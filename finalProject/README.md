@@ -11,5 +11,14 @@ This project evaluates and compares the performance of two widely-used localizat
 ## How to Run Simulations
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
+   git clone https://github.com/dgoldberg1900/finalProject.git
+   ```
+2. **Navigate to the `src` directory**:
+   ```bash
+   cd finalProject/src
+   ```
+3. **Run the simulation**:
+   ```bash
+   python simulation_runner.py
+   ```
 
