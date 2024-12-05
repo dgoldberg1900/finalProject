@@ -34,23 +34,22 @@ Assign equal weights w_0^(i) = 1 / M to each particle
 
 # Time Step Loop
 For each timestep `t`:
-    1. **Prediction (Motion Update)**:
+    1. Prediction (Motion Update):
        For each particle `i`:
            X_t^(i) = MotionModel(U_t, X_t-1^(i)) + Noise
            
-    2. **Update (Measurement Likelihood)**:
+    2. Update (Measurement Likelihood):
        For each particle `i`:
            w_t^(i) = MeasurementModel(Z_t, X_t^(i))
            
-    3. **Normalization**:
+    3. Normalization:
        Normalize weights: w_t^(i) = w_t^(i) / Σ w_t^(j) for all `j`
 
-    4. **Resampling**:
+    4. Resampling:
        Resample `M` particles based on weights w_t^(i) using a sampling method 
-       (e.g., stratified or systematic resampling)
        Reset weights w_t^(i) = 1 / M for all `i`
 
-    5. **Estimate State**:
+    5. Estimate State:
        Compute estimated state as the weighted mean of particles:
        X_estimate_t = Σ (w_t^(i) * X_t^(i)) for all `i`
 
