@@ -11,6 +11,8 @@
 ## Algorithmic Design and Implementation
 The algorithmic design and implementation phase is underway with Daniel covering the Kalman implementation and Andrew covering the Particle Filtering implementation.
 
+So far both the `kalman_filter.py` and the `particle_filter.py` have had major updates with important methods and classes added. Both filters require a few more additions before the simulation_runner can be established and initial tests conducted.
+
 
 ## Particle Filter Localization Algorithm
 
