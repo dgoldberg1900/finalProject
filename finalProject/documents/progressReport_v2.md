@@ -9,7 +9,7 @@
 3. **Research paper writing (IN PROGRESS)**
 
 ## Algorithmic Design and Implementation
-The algorithmic design and implementation phase is underway with Daniel covering the Kalman implementation and Andrew covering the Particle Filtering implementation. So far we have:
+The algorithmic design and implementation phase is underway with Daniel covering the Kalman implementation and Andrew covering the Particle Filtering implementation.
 
 
 ## Particle Filter Localization Algorithm
@@ -57,3 +57,10 @@ For each timestep `t`:
 
     Return updated particle set X_t
 ```
+
+## Research Paper 
+
+The research paper has been templated and the draft is currently being written in parallel with our code design and implementation. Our paper is hosted on Overleaf which allows for seamless collaboration using LaTeX. The current status of the paper is a little rough with basic introductory information that is set to be edited. Our plan is to revise the paper gradually with a greater importance place on algorithm implementation for the time being.
+
+*** Research Paper Link ***
+[Final Paper Draft](https://www.overleaf.com/read/kqxkqjnqqprs#1c0929)
