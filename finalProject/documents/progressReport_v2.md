@@ -3,5 +3,5 @@
 ## Status:
 
 1. Research phase (FINISHED)
-    a. Research into the main localization problems of robotic navigation.
+- Research into the main localization problems of robotic navigation.
 
