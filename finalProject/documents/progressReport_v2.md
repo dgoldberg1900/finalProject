@@ -14,6 +14,8 @@ The algorithmic design and implementation phase is underway with Daniel covering
 
 ## Particle Filter Localization Algorithm
 
+The algorithm design demonstrates the system's state as a set of particles each with a weight that indicates the liklihood based on the current observation. The algorithm iterately refines an estimate of the state of the system using a motion model to predict particle states. This is down by updating the weights using an abstract measurement model and through resampling particles based on their weights to focus on high-probability regions of the state space.
+
 ### Inputs:
 - **M**: Number of particles
 - **X**: Initial particle states
